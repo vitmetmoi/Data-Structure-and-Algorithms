@@ -1,11 +1,38 @@
-#include<iostream>
+#include <iostream>
+#include <iomanip>
 
-using namespace std;
+double harmonicSum(int n) {
+    double sum = 0;
+    for (int i = 1; i <= n; ++i) {
+        sum += 1.0 / i;
+    }
+    return sum;
+}
 
-int main(){
+int findLargestN(double M) {
+    int N = 1;
+    while (harmonicSum(N) <= M) {
+        ++N;
+    }
+    return N - 1;
+}
 
-    char* arr = new char[20];
+int main() {
+    double M;
+    std::cin >> M;
 
-    cin.getline(arr,100);cout<<arr;
-  
+    if (M < 1 || M >= 10) {
+        std::cout << "NULL" << std::endl;
+        return 0;
+    }
+
+    int N = findLargestN(M);
+    
+    if (N > 0) {
+        std::cout << N << std::endl;
+    } else {
+        std::cout << "NULL" << std::endl;
+    }
+
+    return 0;
 }
