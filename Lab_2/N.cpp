@@ -117,5 +117,5 @@ int main(){
     sort_element();
     add_to_file(mark);
     file.close();
-    
+    system("pause");
 }
