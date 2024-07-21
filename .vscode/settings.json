@@ -60,7 +60,11 @@
     "iostream": "cpp",
     "A.C": "cpp",
     "B.C": "cpp",
-    "C.C": "cpp"
+    "C.C": "cpp",
+    "Lap6.C": "cpp",
+    "test.C": "cpp",
+    "SearchGrade.C": "cpp",
+    "LinkListWithFile.C": "cpp"
   },
   "C_Cpp.errorSquiggles": "disabled"
 }
