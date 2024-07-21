@@ -64,7 +64,8 @@
     "Lap6.C": "cpp",
     "test.C": "cpp",
     "SearchGrade.C": "cpp",
-    "LinkListWithFile.C": "cpp"
+    "LinkListWithFile.C": "cpp",
+    "2dimentionLinkList.C": "cpp"
   },
   "C_Cpp.errorSquiggles": "disabled"
 }
