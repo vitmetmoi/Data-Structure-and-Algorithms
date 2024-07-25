@@ -65,7 +65,8 @@
     "test.C": "cpp",
     "SearchGrade.C": "cpp",
     "LinkListWithFile.C": "cpp",
-    "2dimentionLinkList.C": "cpp"
+    "2dimentionLinkList.C": "cpp",
+    "AllSortMethods.C": "cpp"
   },
   "C_Cpp.errorSquiggles": "disabled"
 }
