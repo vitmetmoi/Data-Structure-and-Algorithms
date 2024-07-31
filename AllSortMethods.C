@@ -53,6 +53,15 @@ void QuickSort(int arr[],int low,int high){
     }
 }
 
+void bbSort(int arr[],int n){
+    for(int i = 0 ; i < n-1 ; i ++ )
+        for(int j = 0 ; j < n ; j++){
+            if(arr[j]<arr[j+1]){
+                swap(&arr[j],&arr[j+1]);
+            }
+        }
+}
+
 
 void show(int arr[],int n){
     for(int i = 0 ; i < n ; i ++){
@@ -69,6 +78,6 @@ int main(){
     }
     fclose(file);
 
-    QuickSort(arr,0,n-1);
+    bbSort(arr,n);
     show(arr,n);
 }
