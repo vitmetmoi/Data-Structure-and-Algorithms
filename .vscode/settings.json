@@ -68,7 +68,8 @@
     "2dimentionLinkList.C": "cpp",
     "AllSortMethods.C": "cpp",
     "SapxepchenTest.C": "cpp",
-    "Tree.C": "cpp"
+    "Tree.C": "cpp",
+    "Final.C": "cpp"
   },
   "C_Cpp.errorSquiggles": "disabled"
 }
