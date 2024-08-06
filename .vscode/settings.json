@@ -71,7 +71,8 @@
     "Tree.C": "cpp",
     "Final.C": "cpp",
     "Final1.C": "cpp",
-    "FinalTree.C": "cpp"
+    "FinalTree.C": "cpp",
+    "FinalSort.C": "cpp"
   },
   "C_Cpp.errorSquiggles": "disabled"
 }
