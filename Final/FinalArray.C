@@ -27,11 +27,6 @@ int main() {
     int *arr2 = (int*)malloc(n * sizeof(int));
     char *arr3 = (char*)malloc(n * 50 * sizeof(char));
     char *arr4 = (char*)malloc(n * 50 * sizeof(char));
-    
-    if (!arr1 || !arr2 || !arr3 || !arr4) {
-        printf("Memory allocation failed\n");
-        return 1;
-    }
 
     for(int i = 0; i < n; i++) {
         scanf("%d %d %49s %49s", &arr1[i], &arr2[i], &arr3[i*50], &arr4[i*50]);

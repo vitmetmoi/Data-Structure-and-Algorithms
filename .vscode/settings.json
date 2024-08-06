@@ -73,7 +73,9 @@
     "Final1.C": "cpp",
     "FinalTree.C": "cpp",
     "FinalSort.C": "cpp",
-    "FinalArray.C": "cpp"
+    "FinalArray.C": "cpp",
+    "tempCodeRunnerFile.C": "cpp",
+    "FinalLinkedList.C": "cpp"
   },
   "C_Cpp.errorSquiggles": "disabled"
 }
