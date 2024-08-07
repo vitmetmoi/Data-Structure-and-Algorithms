@@ -34,6 +34,33 @@ void show(struct node* head){
     }
 }
 
+void insertNode(struct node** head,int des,int data){
+    struct node* ptr = create(data);
+    struct node* temp = *head;
+    if(des>1){
+    for(int i = 0 ; i < des - 2 ; i ++){
+        temp = temp->next;
+    }
+    ptr->next = temp->next;
+    temp->next = ptr;
+    }
+    else{
+    ptr->next = *head;
+    *head = ptr;
+    }
+}
+
+void deleteNode(struct node** head,int des){
+    struct node* temp = *head;
+    struct node* prev = NULL;
+
+    for(int i = 0 ; i < des - 1 ; i ++){
+        prev = temp;
+        temp = temp-> next;
+    }
+    prev->next = temp->next;
+}
+
 void selectedSort(struct node* head){
     struct node*temp = head;
     while(temp!=NULL){
@@ -62,7 +89,7 @@ int main(){
         insertLinkedList(&head,data);
     }
     fclose(file);
-    selectedSort(head);
+    deleteNode(&head,3);
     show(head);
 
 }
