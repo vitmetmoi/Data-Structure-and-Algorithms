@@ -78,7 +78,8 @@
     "FinalLinkedList.C": "cpp",
     "StackFinal.C": "cpp",
     "QueueFinal.C": "cpp",
-    "temp.C": "cpp"
+    "temp.C": "cpp",
+    "sequence.C": "cpp"
   },
   "C_Cpp.errorSquiggles": "disabled"
 }
