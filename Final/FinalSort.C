@@ -90,8 +90,8 @@ int main(){
     }
     fclose(file);    
     //selectSort(arr,n,3);
-    //bubbleSort(arr,n,n);
+    bubbleSort(arr,n,3);
     //insertSort(arr,n,3);
-    QuickSort(arr,0,n-1);
+    //QuickSort(arr,0,n-1);
     show(arr,n);
 }
